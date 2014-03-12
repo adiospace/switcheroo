@@ -1,0 +1,14 @@
+{
+  "name": "switcheroo",
+  "main": "./lib/switcheroo",
+  "version": "0.0.0",
+  "description": "Switch between your 2 favorite themes",
+  "activationEvents": ["switcheroo:toggle"],
+  "repository": "https://github.com/adrianolaru/switcheroo",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
