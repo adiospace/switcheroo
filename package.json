@@ -1,7 +1,7 @@
 {
   "name": "switcheroo",
   "main": "./lib/switcheroo",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Switch between your 2 favorite themes",
   "repository": "https://github.com/adrianolaru/switcheroo",
   "license": "MIT",
