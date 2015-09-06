@@ -5,7 +5,7 @@ module.exports =
   }
 
   activate: (state) ->
-    atom.workspaceView.command "switcheroo:toggle", => @toggle()
+    atom.commands.add "atom-workspace", "switcheroo:toggle", => @toggle()
 
   toggle: ->
     @currentTheme = atom.config.get('core.themes')
