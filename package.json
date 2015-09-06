@@ -6,7 +6,7 @@
   "repository": "https://github.com/adrianolaru/switcheroo",
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">1.0.0"
   },
   "dependencies": {}
 }

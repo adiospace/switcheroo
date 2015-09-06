@@ -1,7 +1,11 @@
 module.exports =
-  configDefaults: {
-    themeOne: ['atom-dark-ui', 'atom-dark-syntax']
-    themeTwo: ['atom-light-ui', 'atom-light-syntax']
+  config: {
+    themeOne:
+      type: 'array'
+      default: ['one-dark-ui', 'one-dark-syntax']
+    themeTwo:
+      type: 'array'
+      default: ['one-light-ui', 'one-light-syntax']
   }
 
   activate: (state) ->
